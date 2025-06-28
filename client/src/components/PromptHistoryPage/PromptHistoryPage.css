@@ -1,0 +1,58 @@
+
+.prompt-history-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* צבע רקע כהה */
+  color: white;
+}
+
+.sidebar {
+  width: 30%;
+  background: #222;
+  padding: 1rem;
+  overflow-y: auto;
+  border-left: 1px solid #444;
+}
+
+.history-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #444;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.history-item:hover {
+  background-color: #333;
+}
+
+.selected {
+  background-color: #555;
+}
+
+.no-prompts {
+  color: #888;
+  margin-top: 20px;
+}
+
+.details {
+  flex: 1;
+  padding: 2rem;
+  background-color: #181818;
+  overflow-y: auto;
+}
+
+.details h2 {
+  margin-top: 0;
+}
+
+.details p {
+  white-space: pre-wrap; 
+  line-height: 1.5;
+}
+
+.details small {
+  display: block;
+  margin-top: 1rem;
+  color: #aaa;
+}

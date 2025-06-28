@@ -1,0 +1,36 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+.home-card {
+  background: #1b1b2f;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 25px #00f2fe33;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.main-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #00f2fe;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
